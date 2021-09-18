@@ -6,7 +6,7 @@
 
 h1 {
   color: #ffff;
-  font-weight: bold;
+  font-weight: li;
   font-size: 42px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
@@ -17,7 +17,7 @@ body {
 }
 /* Hero Section & Nav. Buttons Start*/
 header {
-  background-image: url("../images/hero-img.jpg");
+  background-image: url("../images/hero-img2.jpg");
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -30,6 +30,7 @@ header {
   position: sticky;
   top: 0;
 }
+
 header nav {
   margin: 7px 0;
 }
@@ -44,7 +45,7 @@ header nav ul {
 header nav ul li a {
   color: #ffff;
   padding: 5px 10px;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 1.55vw;
 }
 header nav ul li a:hover {
@@ -53,6 +54,21 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
+
+/*footer starts here*/
+.footer {
+  padding: 30px;
+  font-size: 18px;
+  font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
+  text-align: center;
+}
+.footer h2 {
+  color: #080883;
+  text-decoration: underline;
+  margin: 20px;
+  font-size: 30px;
+}
+
 /*randomness*/
 .box {
   width: 350px;
