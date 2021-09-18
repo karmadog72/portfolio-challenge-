@@ -6,11 +6,13 @@
 
 h1 {
   color: #ffff;
-  font-weight: li;
-  font-size: 42px;
+  font-weight: lighter;
+  font-size: 28px;
+  font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
   text-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
+}
 body {
   color: #080883;
   background-color: #fff;
@@ -20,32 +22,33 @@ body {
   font-size: 24px;
   font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
   margin-left: 5px;
-  width: 100%;
+  background: #e0e5f5;
+  color: #080883;
+  width: 99%;
   border-style: ridge;
   border-color: #080883;
   border-width: 5px;
   padding: 5px;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  list-style: none;
+  justify-content: space-around;
 }
+
+
 /*main section*/
 .main-area {
   font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
-  background-color: #b5c0e0;
+  background-color: #e0e5f5;
   color: #080883;
   display: flex;
   align-items: center;
   line-height: 1.6;
 }
-}
-.main-area img {
-  height: 200px;
+header img {
+  height: 205px;
   width: 200px;
   display: inline-block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 30px;
   padding-right: 20px;
 }
 
@@ -58,9 +61,9 @@ body {
 header {
   background-image: url("../images/hero-img2.jpg");
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  padding: 60px 35px;
+  padding: 20px 35px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -86,6 +89,7 @@ header nav ul li a {
   padding: 5px 10px;
   font-weight: bold;
   font-size: 1.55vw;
+  font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
 }
 header nav ul li a:hover {
   background: #ffff;
@@ -100,7 +104,34 @@ header nav ul li a:hover {
   font-size: 30px;
   justify-content: space-around;
   font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
+}
 
-/*footer goes here*/
+.footer {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background:  #e0e5f5;
+  color: #080883;
+  width: 99%;
+  border-style: ridge;
+  border-color: #080883;
+  border-width: 5px;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer h2 {
+  color: #080883;
+  margin: 20px;
+  font-size: 36px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-
+.footer div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
