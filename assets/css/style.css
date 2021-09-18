@@ -13,15 +13,53 @@ h1 {
 
 body {
   color: #080883;
-  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
 }
-/* Hero Section & Nav. Buttons Start*/
+/*about me  section*/
+.about {
+  display: inline-block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  width: 75%;
+}
+/*main section*/
+.main {
+  margin-bottom: 20px;
+  margin-left: 0;
+  padding: 50px;
+  height: 300px;
+  font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
+  background-color: #d4d9e7;
+  color: #080883;
+  text-align: left;
+  line-height: 1.6;
+}
+.main img {
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+}
+.main h2 {
+  padding: 15px 20px 5px 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: left;
+}
+.float-left {
+  float: left;
+  margin: 25px 25px 25px 25px;
+}
+
+/* Header/hero Section & Nav. Buttons Start*/
 header {
   background-image: url("../images/hero-img2.jpg");
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 30px 35px;
+  padding: 60px 35px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,7 +75,7 @@ header nav {
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
 }
@@ -45,7 +83,7 @@ header nav ul {
 header nav ul li a {
   color: #ffff;
   padding: 5px 10px;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1.55vw;
 }
 header nav ul li a:hover {
@@ -54,12 +92,19 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
-
+.fun-title {
+  color: #ffff;
+  padding: 5px 10px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /*footer starts here*/
 .footer {
   padding: 30px;
   font-size: 18px;
-  font-family: Trebuchet, Lucida, Lucida, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .footer h2 {
