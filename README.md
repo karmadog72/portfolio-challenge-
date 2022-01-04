@@ -1,7 +1,10 @@
 # Portfolio
 https://karmadog72.github.io/portfolio-challenge-/
 
-  # Table of Contents
+## Descritption
+Danika Pearson GitHub & Linkedin Portfolio
+
+  ## Table of Contents
   1. [Description](#project-description)
   2. [LicenseType](#license)
   3. [Questions](#questions)
@@ -16,3 +19,4 @@ https://karmadog72.github.io/portfolio-challenge-/
   See all of my work at GitHub (https://github.com/karmadog72)
 
   ## Image Example
+![port pic](https://user-images.githubusercontent.com/89046934/147998807-9aaaf825-bf15-4b77-85e0-0ba2ceb8a2c8.png)
