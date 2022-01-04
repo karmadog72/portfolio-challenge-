@@ -8,8 +8,8 @@ https://karmadog72.github.io/portfolio-challenge-/
 
  
   ## License
-  ![GitHub License](https://img.shields.io/badge/license-${data.licenseType}-blue.svg)
-  Licensed under MIT
+  ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
   ## Questions
   If you have any questions you can email me at linkedin.com/in/danika-pearson OR
