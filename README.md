@@ -12,7 +12,7 @@ https://karmadog72.github.io/portfolio-challenge-/
 
 
   ## Questions
-  If you have any questions you can email me at linkedin.com/in/danika-pearson OR
+  If you have any questions you can email me at (linkedin.com/in/danika-pearson)OR
   See all of my work at GitHub (https://github.com/karmadog72)
 
   ## Image Example
